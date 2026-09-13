@@ -15,7 +15,7 @@ The dataset used for this exercise was provided by the university and is therefo
 ## Results
 
 ### Height vs Weight Regression
-[Height vs Weight Regression](regression_plot.png)
+![Height vs Weight Regression](regression_plot.png)
 
 ## Protein Structural Analysis
 

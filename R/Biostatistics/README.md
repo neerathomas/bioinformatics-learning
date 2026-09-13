@@ -12,6 +12,11 @@ This exercise covers:
 -Linear Regression
 The dataset used for this exercise was provided by the university and is therefore not included in this repository.
 
+## Results
+
+### Height vs Weight Regression
+[Height vs Weight Regression](regression_plot.png)
+
 ## Protein Structural Analysis
 
 This exercise covers:

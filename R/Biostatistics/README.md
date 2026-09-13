@@ -69,4 +69,4 @@ Using the **Bio3D package in R**, the EGFR structure was analyzed for:
 ![EGFR B-factor Distribution](EGFR_b_factor_distribution.png)
 
 ### EGFR Ramachandran Plot
-![EGFR Ramachandran Plot](EGFR_ramachandran_plot.png)
+![EGFR Ramachandran Plot](EGFR_Ramachandran_plot.png)

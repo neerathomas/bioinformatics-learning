@@ -21,3 +21,14 @@ This exercise covers:
 -B-factor Distribution of Main Chain Atoms
 -Ramachandran Plot
 The protein structure used for this exercise was obtained from the Protein Data Bank (PDB) using PDB ID 1SMD and analyzed using the Bio3D package in R
+
+## Results
+
+### Amino Acid Composition
+![Amino Acid Composition](amino_acid_composition.png)
+
+### B-factor Distribution
+![B-factor Distribution](b_factor_distribution.png)
+
+### Ramachandran Plot
+![Ramachandran Plot](Ramachandran_plot.png)

@@ -1,7 +1,7 @@
 # Biostatistics using R Lab
 R lab exercises related to statistical analysis of biological and physiological data.
 
-## Health Physiological Data Analysis
+## EXERCISE 01 Health Physiological Data Analysis
 This exercise covers:
 -Mean
 -Median
@@ -17,7 +17,7 @@ The dataset used for this exercise was provided by the university and is therefo
 ### Height vs Weight Regression
 ![Height vs Weight Regression](regression_plot.png)
 
-## Protein Structural Analysis
+## EXERCISE 02 Protein Structural Analysis
 
 This exercise covers:
 -Total Number of Amino Acids
@@ -70,3 +70,87 @@ Using the **Bio3D package in R**, the EGFR structure was analyzed for:
 
 ### EGFR Ramachandran Plot
 ![EGFR Ramachandran Plot](EGFR_Ramachandran_plot.png)
+
+
+# EXERCISE 03 Statistical Tests and ANOVA
+
+## Objective
+
+To perform statistical analysis on health and physiological data using R.
+
+## Dataset
+
+**Dataset:** `dataset1_health_physiological.csv`
+
+The dataset was provided as part of the Biostatistics Using R laboratory practical.
+
+## Statistical Tests and Analyses
+
+The following statistical analyses were performed:
+
+1. Independent Samples t-test
+2. F-test for equality of variances
+3. Variance
+4. Standard deviation
+5. Covariance
+6. Correlation
+7. One-way ANOVA
+8. Two-way ANOVA
+
+## Hypotheses
+
+### Independent Samples t-test
+
+**H₀:** The mean BMI is equal between the sexes.
+
+**H₁:** The mean BMI differs between the sexes.
+
+### F-test
+
+**H₀:** The variance of BMI is equal between the sexes.
+
+**H₁:** The variance of BMI differs between the sexes.
+
+### One-way ANOVA
+
+**H₀:** The mean triglyceride level is equal across all smoking-status groups.
+
+**H₁:** At least one smoking-status group has a different mean triglyceride level.
+
+### Two-way ANOVA
+
+#### Effect of Smoking Status
+
+**H₀:** Smoking status has no significant effect on triglyceride levels.
+
+**H₁:** Smoking status has a significant effect on triglyceride levels.
+
+#### Effect of Physical Activity Level
+
+**H₀:** Physical activity level has no significant effect on triglyceride levels.
+
+**H₁:** Physical activity level has a significant effect on triglyceride levels.
+
+#### Interaction Effect
+
+**H₀:** There is no significant interaction between smoking status and physical activity level on triglyceride levels.
+
+**H₁:** There is a significant interaction between smoking status and physical activity level on triglyceride levels.
+
+
+## Results
+
+* **Independent Samples t-test:** H₀ was rejected if the p-value was less than 0.05, indicating a significant difference in mean BMI between the sexes.
+
+* **F-test:** H₀ was rejected if the p-value was less than 0.05, indicating a significant difference in BMI variance between the sexes.
+
+* **One-way ANOVA:** H₀ was rejected if the p-value was less than 0.05, indicating that at least one smoking-status group had a different mean triglyceride level.
+
+* **Two-way ANOVA:**
+
+  * **Smoking Status:** H₀ was not rejected (p = 0.8130).
+  * **Physical Activity Level:** H₀ was rejected (p = 0.0081).
+  * **Interaction:** H₀ was rejected if the interaction p-value was less than 0.5.
+
+Statistical tests and descriptive statistical measures were performed using R on the provided health and physiological dataset.
+
